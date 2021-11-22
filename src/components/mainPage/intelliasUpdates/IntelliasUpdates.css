@@ -1,0 +1,13 @@
+.intellias-cards-section *{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.intellias-cards-section-top{
+   
+}
+.intellias-cards-section-bottom{
+   
+    align-items: flex-end;
+    height: 460px;
+}

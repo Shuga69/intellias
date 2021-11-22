@@ -1,5 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
+import MainPage from './pages/mainPage/MainPage'
+import WowPage from './pages/wowPage/WowPage'
+import TeamPage from './pages/teamPage/TeamPage'
 
 function App() {
   return (

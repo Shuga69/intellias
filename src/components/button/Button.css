@@ -1,0 +1,19 @@
+.custom-btn{
+    border-radius: 4px;
+    padding: 8px 24px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    font-family: 'Lato', sans-serif;
+}
+.green{
+    background-color: #47D6AD;
+    color: #fff;
+    border: none;
+}
+.white{
+    background-color: #fff;
+    color: #47D6AD;
+    border: 1px solid #47D6AD;
+}

@@ -1,0 +1,7 @@
+.general-info-text-section{
+    margin-right: 32px;
+}
+.general-info__inner{
+    display: flex;
+    align-items: center;
+}
