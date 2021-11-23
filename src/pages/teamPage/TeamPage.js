@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import MainPage from '../mainPage/MainPage';
 import WowPage from '../wowPage/WowPage';
 import FirstTeam from './firstTeam/FirstTeam';
+import OrgChart from '../../components/orgChart/OrgChartComponent';
 
 const TeamPage = () => {
     return (
@@ -12,7 +13,7 @@ const TeamPage = () => {
         <NavbarTeamPage/>
        <Routes>
            <Route exact path="/orgChart" element={<FirstTeam/>}/>
-           <Route exact path="/team1" element={<FirstTeam/>}/>
+           <Route exact path="/team1" element={<OrgChart/>}/>
            <Route exact path="/team2" element={<WowPage/>}/>
        </Routes>
     </Router>

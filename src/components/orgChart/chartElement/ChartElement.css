@@ -1,0 +1,24 @@
+.user-chart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 127px;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 8px;
+}
+.user-chart-header{
+    width: 100%;
+    text-align: center;
+   
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: linear-gradient(90deg, rgba(255, 200, 8, 0.2) -2.36%, rgba(149, 225, 113, 0.2) 102.35%);
+}
+.user-chart-info{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.user-chart-info *{
+    margin-left: 6px;
+}
