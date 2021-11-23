@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <MainPage/>
       <TeamPage/>
-      <WowPage/>
+      {/* <WowPage/> */}
 
     </div>
   );

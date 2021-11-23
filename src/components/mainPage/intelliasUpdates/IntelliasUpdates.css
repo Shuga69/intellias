@@ -4,10 +4,24 @@
     
 }
 .intellias-cards-section-top{
+   display: flex;
    
 }
 .intellias-cards-section-bottom{
-   
+    display: flex;
     align-items: flex-end;
     height: 460px;
 }
+@media all and (max-width: 576px){
+    .intellias-cards-section-top{
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .intellias-cards-section-bottom{
+       justify-content: center;
+       flex-wrap: wrap;
+    }
+  }
+ 
+  
+  

@@ -1,0 +1,14 @@
+.first-team-page{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.top-users{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-users{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}

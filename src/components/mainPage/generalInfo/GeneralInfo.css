@@ -4,4 +4,10 @@
 .general-info__inner{
     display: flex;
     align-items: center;
+ 
 }
+@media all and (max-width: 576px){
+    .general-info__inner{
+        flex-wrap: wrap;
+    }
+  }

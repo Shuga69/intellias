@@ -1,0 +1,45 @@
+.wow-card-text-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 1px solid #CACFD3;
+    width: 100%;
+    margin-left:15px;
+    height: 100%;
+    min-height: 120px;
+    padding: 47px 0 36px;
+}
+.wow-card-text__inner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   height: max-content;
+
+}
+.wow-card__inner{
+    display: flex;
+    height: max-content;
+   
+}
+.wow-card-number{
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 40px;
+    letter-spacing: 0.002em;
+    color: #EDFDF9;
+}
+.wow-card-text__inner img{
+    margin-left:20px
+}
+.load-text-btn{
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.additional-text{
+    padding-top: 35px;
+    padding-left: 110px;
+    color: #000000;
+    font-size: 14px;
+    line-height: 143%;
+}

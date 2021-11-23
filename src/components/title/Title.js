@@ -2,7 +2,7 @@ import React from 'react'
 import './Title.css'
 const Title = (props) => {
     return (
-        <h4 className ="section-title">
+        <h4 {...props} className ="section-title">
             {props.text}
         </h4>
     )

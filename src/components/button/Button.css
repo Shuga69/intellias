@@ -6,6 +6,7 @@
     line-height: 28px;
     letter-spacing: 0.2px;
     font-family: 'Lato', sans-serif;
+    cursor: pointer;
 }
 .green{
     background-color: #47D6AD;

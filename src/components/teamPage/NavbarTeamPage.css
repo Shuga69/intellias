@@ -1,0 +1,13 @@
+.nav-container{
+    border-bottom: 1px solid #E3E6E8;
+    width: max-content;
+    min-width: 667px;
+}
+.navbar *{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.title.active{
+    border-bottom: #47D6AD solid 4px;
+}

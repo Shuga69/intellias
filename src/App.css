@@ -12,6 +12,18 @@
   margin: 0 auto;
 }
 body{
-  margin-top: 100px;
+  margin-top: 82px;
   font-family: 'Open Sans', sans-serif;
+}
+@media all and (max-width: 576px){
+  .container{
+    width: 543px;
+  }
+
+}
+@media all and (max-width: 321){
+  .container{
+    width: 268px;
+  }
+
 }
