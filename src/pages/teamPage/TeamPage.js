@@ -13,8 +13,8 @@ const TeamPage = () => {
         <Router>
         <NavbarTeamPage/>
        <Routes>
-           <Route exact path="/orgChart" element={<FirstTeam/>}/>
-           <Route exact path="/team1" element={<OrgChartTree/>}/>
+           <Route exact path="/orgChart" element={<OrgChartTree/>}/>
+           <Route exact path="/team1" element={<FirstTeam/>}/>
            <Route exact path="/team2" element={<WowPage/>}/>
        </Routes>
     </Router>

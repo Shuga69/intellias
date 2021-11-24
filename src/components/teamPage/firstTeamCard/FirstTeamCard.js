@@ -47,7 +47,7 @@ const FirstTeamCard = (props) => {
             <h6 className="worker-name">{props.name}</h6>
             <SimpleText style={positionStyle} text={props.position}/>
             <Button onClick={showModal} style={btnStyle} type="white" text="View details"/>
-            <Button style={btnStyle} type="green" text="Give feedback"/>
+            <Button style={btnStyle} type="greenBtn" text="Give feedback"/>
             </div>
             <ModalDetails show={showDetails} handleClose={hideModal}>
                 <div className="details-container">
