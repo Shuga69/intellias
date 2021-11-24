@@ -61,7 +61,6 @@ const OrgChartComponent = (props, ref) => {
         
         .render()
         .expandAll()
-    
         .fit()
         
     }
