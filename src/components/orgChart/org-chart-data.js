@@ -1,8 +1,43 @@
-export const orgChartData = [
-    {
-        name:"Vlad",
-        imageUrl:"https://www.google.com/imgres?imgurl=https%3A%2F%2Fnaurok-test.nyc3.cdn.digitaloceanspaces.com%2Fuploads%2Ftest%2F446833%2F162960%2F610866_1586247693.jpg&imgrefurl=https%3A%2F%2Fnaurok.com.ua%2Ftest%2Fnature-and-environment-162960.html&tbnid=pZG009_n8yw8iM&vet=12ahUKEwir-pSzlq_0AhX1gM4BHQZuB88QMygAegUIARCuAQ..i&docid=hJ6TDipb9HTIvM&w=800&h=484&q=nature&ved=2ahUKEwir-pSzlq_0AhX1gM4BHQZuB88QMygAegUIARCuAQ",
-        positionName:"senior"
-    }
-
-]
+export const orgChartData= [{
+    name: "null",
+    children: [{
+      "name": "Top Level_1",
+      "parent": "null",
+      "children": [{
+        "name": "Level 2: A",
+        "parent": "Top Level_1",
+        "children": [{
+          "name": "Son of A",
+          "parent": "Level 2: A"
+        }, {
+          "name": "Daughter of A",
+          "parent": "Level 2: A"
+        }]
+      },
+      {
+        "name": "Level 2: B",
+        "parent": "Top Level"
+      }],
+    }, {
+      "name": "Top Level_2",
+      "parent": "null",
+      "children": [
+      {
+        "name": "Level 2_2: A",
+        "parent": "Top Level_2",
+        "children": [
+        {
+          "name": "Son of A_2",
+          "parent": "Level 2_2: A"
+        },
+        {
+          "name": "Daughter of A_2",
+          "parent": "Level 2_2: A"
+        }]
+      },
+      {
+        "name": "Level 2_2: B",
+        "parent": "Top Level_2"
+      }]
+    }]
+  }];
