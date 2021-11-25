@@ -7,18 +7,13 @@ import FirstTeam from './firstTeam/FirstTeam';
 import OrgChart from '../../components/orgChart/OrgChartComponent';
 import OrgChartTree from '../../components/orgChart/orgChartTree/OrgChartTree';
 import OrganizationChart from './organizationChart/OrganizationChart';
-
+import './TeamPage.css'
 const TeamPage = () => {
     return (
+        <div className="team-page-section">
         <div className="container">
-        <Router>
-        <NavbarTeamPage/>
-       <Routes>
-           <Route exact path="/orgChart" element={<OrganizationChart/>}/>
-           <Route exact path="/team1" element={<FirstTeam/>}/>
-           <Route exact path="/team2" element={<WowPage/>}/>
-       </Routes>
-    </Router>
+         <NavbarTeamPage/>
+    </div>
     </div>
     )
 }

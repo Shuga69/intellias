@@ -9,11 +9,13 @@ const NavbarTeamPage = () => {
     }
     return (
         <nav className="navbar">
+           
             <div className="nav-container">
                 <NavLink to="/orgChart"className="title" activeClassName="title-active"><Title style={titleStyles} text="Organization Chart"/></NavLink>
                 <NavLink to="/team1" className="title" activeClassName="title-active"><Title style={titleStyles} text="Team 1"/></NavLink>
                 <NavLink to="/team2" className="title" activeClassName="title-active"><Title style={titleStyles} text="Team 2"/></NavLink>
             </div>
+            
         </nav>
     )
 }

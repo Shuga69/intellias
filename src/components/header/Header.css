@@ -1,0 +1,79 @@
+.header{
+    width: 100%;
+    background-color: rgba(37, 55, 70, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    position: fixed;
+    z-index: 100;
+    transition: top 0.3s;
+}
+
+.hide {
+    top: -72px;
+}
+
+.header__inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+.header__inner-logo{
+    width: 229,6px;
+    height: 100%;
+    margin: auto 0;
+    animation: blink normal 2s infinite ease-in-out;
+}
+
+
+.brand-image{
+    height:100%;
+    padding: 10px 0 ;
+}
+
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto 0;
+}
+
+.header__navigation-link{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.25s linear;
+    cursor: pointer;
+   line-height: 28px;
+}
+.logo-text p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media all and (max-width: 1320px) {
+    .header-navigation{
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 900px){
+    .header-navigation{
+        display: none !important;
+    }
+
+    .header-info{
+        display: none;
+    }
+
+    .header__inner-toggle{
+        display: flex;
+        margin: auto 0;
+    }
+}

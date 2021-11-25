@@ -4,8 +4,12 @@ import image from '../../../assets/oleh.jpg'
 import './OrganizationChart.css'
 import dotsImage from '../../../assets/dotsImage.svg'
 import {userImages} from './imagesImport'
+import NavbarTeamPage from '../../../components/teamPage/NavbarTeamPage'
 const OrganizationChart = () => {
     return (
+        <div className="org-chart-section">
+        <div className="container">
+        <NavbarTeamPage/>
     <div className="org-wrapper">
         <div className="level-1">
         <ChartElement left="349px" header="senior" position="Senior Delivery Director" img={userImages.user1} creditionals="Roman Reznikov"/>
@@ -63,6 +67,8 @@ const OrganizationChart = () => {
         <ChartElement  header="senior" position="Scrum Master" img={userImages.user37} creditionals="Volodymyr Yakubovych"/>
         </div>
         <img className="dots-image" src={dotsImage}/>
+    </div>
+    </div>
     </div>
     )
 }
