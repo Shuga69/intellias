@@ -5,12 +5,22 @@ import './OrganizationChart.css'
 import dotsImage from '../../../assets/dotsImage.svg'
 import {userImages} from './imagesImport'
 import NavbarTeamPage from '../../../components/teamPage/NavbarTeamPage'
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 const OrganizationChart = () => {
     return (
+        <TransformWrapper
+            defaultScale={5}
+            defaultPositionX={200}
+            wheel={{step:0.08}}
+            defaultPositionY={100}>
+
         <div className="org-chart-section">
         <div className="container">
         <NavbarTeamPage/>
+            <TransformComponent>
+
     <div className="org-wrapper">
+
         <div className="level-1">
         <ChartElement left="349px" header="senior" position="Senior Delivery Director" img={userImages.user1} creditionals="Roman Reznikov"/>
         </div>
@@ -67,9 +77,12 @@ const OrganizationChart = () => {
         <ChartElement  header="senior" position="Scrum Master" img={userImages.user37} creditionals="Volodymyr Yakubovych"/>
         </div>
         <img className="dots-image" src={dotsImage}/>
+
+    </div>
+        </TransformComponent>
     </div>
     </div>
-    </div>
+        </TransformWrapper>
     )
 }
 
