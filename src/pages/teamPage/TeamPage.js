@@ -5,7 +5,8 @@ import MainPage from '../mainPage/MainPage';
 import WowPage from '../wowPage/WowPage';
 import FirstTeam from './firstTeam/FirstTeam';
 import OrgChart from '../../components/orgChart/OrgChartComponent';
-import OrgChartTree from '../../components/orgChart/viewportContext/OrgChartTree';
+import OrgChartTree from '../../components/orgChart/orgChartTree/OrgChartTree';
+import OrganizationChart from './organizationChart/OrganizationChart';
 
 const TeamPage = () => {
     return (
@@ -13,7 +14,7 @@ const TeamPage = () => {
         <Router>
         <NavbarTeamPage/>
        <Routes>
-           <Route exact path="/orgChart" element={<OrgChartTree/>}/>
+           <Route exact path="/orgChart" element={<OrganizationChart/>}/>
            <Route exact path="/team1" element={<FirstTeam/>}/>
            <Route exact path="/team2" element={<WowPage/>}/>
        </Routes>

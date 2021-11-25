@@ -2,7 +2,7 @@
 *,*:before,*:after{
   margin: 0;
   font-size: 16px;
-  line-height: 24px;
+  
   color: #444E55;
   box-sizing: border-box;
 }

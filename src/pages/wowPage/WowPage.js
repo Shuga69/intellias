@@ -13,7 +13,6 @@ const WowPage = () => {
                     <WowCard number="03" text="What is the availbility of the engineers  in terms of hours they will work, and how much of that time can overlap with my local hours?"/>
                     <WowCard number="04" text="Do the engeers have any planned OOO time I should be aware of?"/>
                     <WowCard number="05" text="What is the availbility of the engineers  in terms of hours they will work, and how much of that time can overlap with my local hours?"/>
-            
                 </div>
             </div>
         </div>

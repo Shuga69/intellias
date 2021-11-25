@@ -2,10 +2,11 @@ import React from 'react'
 import SimpleText from '../../simpleText/SimpleText'
 import './ChartElement.css'
 
-const ChartElement = () => {
+const ChartElement = (props) => {
     
-    const styleHeaderColor={
-         }
+    const position={
+        left: props.left
+    }
     const positionStyle={
         fontSize: 8,
         color: "#3F5C6F",
@@ -18,13 +19,13 @@ const ChartElement = () => {
         
     }
     return (
-        <div className="user-chart-container">
-            <div style={styleHeaderColor} className="user-chart-header">
-                <SimpleText style={positionStyle} text="{props.positions}"/>
+        <div style={position} className="user-chart-container">
+            <div className={`user-chart-header ${props.header}`}>
+                <SimpleText style={positionStyle} text={props.position}/>
             </div>
             <div className="user-chart-info">
-                {/* <img src={props.img}/> */}
-                <SimpleText style={creditionalsStyle} text="{props.creditionals}"/>
+                <img src={props.img}/>
+                <SimpleText style={creditionalsStyle} text={props.creditionals}/>
             </div>
         </div>
     )

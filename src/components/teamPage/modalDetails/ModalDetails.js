@@ -16,7 +16,7 @@ const ModalDetails = ({ handleClose, show, children }) => {
             <img className="close-btn" onClick={handleClose} src={cross}/>
             {children}
             
-            <Button style={btnStyle}  type="green" onClick={handleClose} text="Message"/>
+            <Button style={btnStyle}  type="greenBtn" onClick={handleClose} text="Message"/>
         </section>
         
     </div>
