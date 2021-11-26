@@ -21,7 +21,7 @@ const WowCard = (props) => {
         <p style={isShow?{color:"#CEF4EB"}:{color:"#EDFDF9"}} className="wow-card-number">{props.number}</p>
         <div className="wow-card-text-section">
             <div className="wow-card-text__inner">
-                <button onClick={onButtonClickHandler} className="load-text-btn"><img width="18px" height="18px" src={isShow?minusIcon:plusIcon}/></button>
+                <button onClick={onButtonClickHandler} className="load-text-btn"><img width="18px" height="18px" alt="modal exit" src={isShow?minusIcon:plusIcon}/></button>
                 <SimpleText style={cardTextStyle} text={props.text}/>
                 
             </div>

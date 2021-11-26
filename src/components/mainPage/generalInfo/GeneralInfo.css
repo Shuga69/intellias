@@ -10,4 +10,12 @@
     .general-info__inner{
         flex-wrap: wrap;
     }
+    .general-info__inner img{
+      
+        width: 100%;
+    }
+    .general-info-text-section{
+    
+       
+    }
   }

@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Header from './components/header/Header';
 import FirstTeam from './pages/teamPage/firstTeam/FirstTeam';
 import OrganizationChart from './pages/teamPage/organizationChart/OrganizationChart';
-import NavbarTeamPage from './components/teamPage/NavbarTeamPage';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
            <Route exact path="/orgChart" element={<OrganizationChart/>}/>
            <Route exact path="/team1" element={<FirstTeam/>}/>
        </Routes>
+       <Footer/>
     </Router>
    
 

@@ -18,6 +18,7 @@ body{
 @media all and (max-width: 576px){
   .container{
     width: 543px;
+    padding: 16px;
   }
 
 }

@@ -1,0 +1,19 @@
+.staffing__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+}
+.left-staffing-img{
+    width: 750%;
+    margin-right: 40px;
+}
+.staffing__inner img{
+    border: 2px solid #47D6AD;;
+}
+@media all and (max-width: 576px){
+    .staffing__inner{
+        flex-wrap: wrap;
+    }
+  }
+  
+  

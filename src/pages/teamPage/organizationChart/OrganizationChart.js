@@ -1,11 +1,11 @@
 import React from 'react'
 import ChartElement from '../../../components/orgChart/chartElement/ChartElement'
-import image from '../../../assets/oleh.jpg'
 import './OrganizationChart.css'
 import dotsImage from '../../../assets/dotsImage.svg'
 import {userImages} from './imagesImport'
 import NavbarTeamPage from '../../../components/teamPage/NavbarTeamPage'
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+import StaffingDashboard from '../../../components/staffingDashboard/StaffingDashboard'
 const OrganizationChart = () => {
     return (
         <TransformWrapper
@@ -82,6 +82,7 @@ const OrganizationChart = () => {
         </TransformComponent>
     </div>
     </div>
+    <StaffingDashboard/>
         </TransformWrapper>
     )
 }
